@@ -1,0 +1,19 @@
+/*
+--------------------------------------------
+TYPOGRAPHY
+
+Base typography styles.
+----------------------------------------- */
+
+html {
+  font-size: 18px;
+  font-family: system, -apple-system, BlinkMacSystemFont, Avenir, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.4;
+}
+
+
+h2 {
+  font-weight: 700;
+}
