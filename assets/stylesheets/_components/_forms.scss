@@ -19,7 +19,6 @@ input[type=number] {
 
   &:focus {
     background: darken($secondary-color, 15%);
-    outline: none;
   }
 }
 
@@ -41,6 +40,5 @@ select {
 
   &:focus {
     box-shadow: 0 0 0 4px darken($secondary-color, 10%);
-    outline: 0;
   }
 }
