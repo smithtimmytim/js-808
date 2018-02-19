@@ -15,7 +15,7 @@ layout: default
       </button>
 
       <div class="input">
-        <input type="number" name="beats-per-minute" id="beats">
+        <input type="number" name="beats-per-minute" id="beats" value="128">
         <label for="beats">BPM</label>
       </div>
 
@@ -29,7 +29,7 @@ layout: default
     </div>
   </header>
 
-  <section class="drum-machine__steps">
+  <section class="drum-machine__steps grid grid--one">
     <span class="step__number">1</span>
     <span class="step__number">2</span>
     <span class="step__number">3</span>
@@ -48,64 +48,84 @@ layout: default
     <span class="step__number">16</span>
   </section>
 
-  <section class="drum-machine__instrument">
+  <section class="drum-machine__instrument grid grid--one">
     <h2 class="instrument__name">Kick</h2>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
   </section>
 
-  <section class="drum-machine__instrument">
+  <section class="drum-machine__instrument grid grid--one">
     <h2 class="instrument__name">Snare</h2>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
   </section>
 
-  <section class="drum-machine__instrument">
+  <section class="drum-machine__instrument grid grid--one">
     <h2 class="instrument__name">Open Hat</h2>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
-    <button class="intrument__beat"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+  </section>
+
+  <section class="drum-machine__instrument grid grid--one">
+    <h2 class="instrument__name">Closed Hat</h2>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
+    <button class="instrument__beat button button--secondary"></button>
   </section>
 
 
