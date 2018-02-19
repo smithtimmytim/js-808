@@ -1,6 +1,6 @@
 # JS-808
 
-The drum machine was built with Jekyll. Here's how to run it locally:
+My solution to the [Splice Frontend Challenge](https://github.com/splicers/js-808). The drum machine was built with Jekyll. Here's how to run it locally:
 
 ```sh
 $ gem install jekyll bundler
