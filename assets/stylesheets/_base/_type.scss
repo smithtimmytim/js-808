@@ -6,11 +6,12 @@ Base typography styles.
 ----------------------------------------- */
 
 html {
-  font-size: 18px;
+  color: $primary-color;
   font-family: system, -apple-system, BlinkMacSystemFont, Avenir, sans-serif;
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   line-height: 1.4;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 

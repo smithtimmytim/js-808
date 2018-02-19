@@ -1,0 +1,17 @@
+/*
+--------------------------------------------
+GRID
+
+Grid component. We need a way to layout our
+drum machine.
+----------------------------------------- */
+
+.grid {
+  display: grid;
+}
+
+.grid--one {
+  align-items: center;
+  grid-gap: 1rem;
+  grid-template-columns: 150px repeat(16, 1fr);
+}

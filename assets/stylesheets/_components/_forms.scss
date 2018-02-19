@@ -1,0 +1,46 @@
+/*
+--------------------------------------------
+FORMS
+
+Styles for the two types of form inputs
+we've got.
+----------------------------------------- */
+
+input[type=number] {
+  -webkit-appearance: none;
+  background: darken($secondary-color, 10%);
+  border: 0;
+  border-radius: $border-radius;
+  color: white;
+  font-size: .9rem;
+  max-width: 75px;
+  padding: .3rem .9rem;
+  transition: background-color 500ms ease-in-out;
+
+  &:focus {
+    background: darken($secondary-color, 15%);
+    outline: none;
+  }
+}
+
+.input label {
+  font-size: .75rem;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+select {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 1px solid $primary-color;
+  border-radius: $border-radius;
+  color: $primary-color;
+  font-size: .8rem;
+  padding: .3rem .9rem;
+  text-transform: uppercase;
+
+  &:focus {
+    box-shadow: 0 0 0 4px darken($secondary-color, 10%);
+    outline: 0;
+  }
+}

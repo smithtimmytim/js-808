@@ -1,0 +1,87 @@
+/*
+--------------------------------------------
+MAIN
+
+Styles for the main area. Drum machine and
+its background will be in this file.
+----------------------------------------- */
+
+body {
+  background-color: $secondary-color;
+}
+
+
+.drum-machine {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25vw;
+  max-width: 60rem;
+}
+
+.drum-machine__header {
+  align-items: flex-end;
+  // border-bottom: 1px solid $primary-color;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+
+.header__controls {
+  align-items: center;
+  display: flex;
+
+   > * + * {
+    margin-left: 1.5rem;
+  }
+}
+
+.drum-machine__steps {
+  margin-bottom: 1rem;
+  text-align: center;
+
+  .step__number {
+    &:first-child {
+      grid-column: 2;
+    }
+  }
+}
+
+.drum-machine__instrument {
+   + .drum-machine__instrument {
+    margin-top: .6rem;
+  }
+}
+
+.instrument__name {
+  text-align: right;
+}
+
+.instrument__beat {
+  min-height: 50px;
+}
+
+@keyframes beatSelected {
+  from,
+  50%,
+  to {
+    background-color: #FF913D;
+  }
+
+  25%,
+  75% {
+    background-color: white;
+  }
+}
+
+.instrument__beat--active {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: beatSelected;
+  background-color: #FF913D;
+}

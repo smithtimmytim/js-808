@@ -1,0 +1,47 @@
+/*
+--------------------------------------------
+BUTTONS
+
+The different styles of buttons.
+----------------------------------------- */
+
+.button {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: $border-radius;
+  color: $primary-color;
+  font-size: .8rem;
+  padding: .3rem .9rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    position: relative;
+    top: 2px;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.button--primary {
+  border: 1px solid $primary-color;
+  text-transform: uppercase;
+  transition: background-color 300ms ease-in-out;
+  &:hover {
+    background-color: lighten($secondary-color, 5%);
+  }
+  &:focus {
+    border: 1px solid $primary-color;
+    box-shadow: 0 0 0 3px darken($secondary-color, 10%);
+  }
+}
+
+.button--secondary {
+  background-color: white;
+  box-shadow: 3px 3px 0 darken($secondary-color, 10%);
+}

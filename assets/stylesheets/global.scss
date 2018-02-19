@@ -20,3 +20,22 @@ the base
 ----------------------------------------- */
 
 @import '_base/base';
+
+/*
+--------------------------------------------
+COMPONENTS
+
+Section for components. This project has:
+grid, buttons, and forms.
+----------------------------------------- */
+@import '_components/components';
+
+/*
+--------------------------------------------
+LAYOUT
+
+Section for styles that pertain to the
+layout.
+----------------------------------------- */
+
+@import '_layout/layout';
